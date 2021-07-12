@@ -1,6 +1,6 @@
 javaOctDec2020
 
-Hillel java elementary course 2020 (October-December)
+Hillel java introduction course 2020 (October-December)
 
 Study projects
 
