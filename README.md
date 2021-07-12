@@ -1,6 +1,6 @@
 javaSprSum2021
 
-Hillel java elementary course 2021 (spring-summer)
+Hillel java elementary course 2020 (October-December)
 
 Study projects
 
