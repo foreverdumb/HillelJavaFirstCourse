@@ -1,6 +1,6 @@
 package com.hillel.homework_3.utils;
 
-import com.hillel.homework_3.models.airplanes.EconomyBusinessAirplane;
+import com.hillel.homework_3.models.airplanes.EconomyBusinessAirplaneClass;
 import com.hillel.homework_3.models.airplanes.EconomyClassAirplane;
 import com.hillel.homework_3.models.airplanes.FighterAirplaneClass;
 
@@ -19,7 +19,7 @@ public class AirplanesUtilClass {
     }
 
     private static void showEconomyBusinessPlane() {
-        EconomyBusinessAirplane e_b_plane = new EconomyBusinessAirplane("Boeing 777", "Airliner",
+        EconomyBusinessAirplaneClass e_b_plane = new EconomyBusinessAirplaneClass("Boeing 777", "Airliner",
                 120, 30);
         System.out.println(e_b_plane + "\n");
     }
