@@ -5,11 +5,11 @@ public class MinArmyUtilClass {
         double biggerThenLiArmyIn = 1.5D;
         double quantityOfEachType = 860.0D;
         final double finalQuantityOfEachType = quantityOfEachType * biggerThenLiArmyIn;
-        int minWarrior = 9;
-        int minArcher = 35;
-        int minHorseman = 12;
-        double minTotalAttack = ((finalQuantityOfEachType * minWarrior) +
-                (finalQuantityOfEachType * minArcher) + (finalQuantityOfEachType * minHorseman));
+        int minWarriorAttack = 9;
+        int minArcherAttack = 35;
+        int minHorsemanAttack = 12;
+        double minTotalAttack = ((finalQuantityOfEachType * minWarriorAttack) +
+                (finalQuantityOfEachType * minArcherAttack) + (finalQuantityOfEachType * minHorsemanAttack));
         int result = (int) minTotalAttack;
         System.out.println("Total attack of Min army is: " + result);
     }
