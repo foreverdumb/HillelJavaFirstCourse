@@ -15,6 +15,7 @@ public class HomeTaskServiceClass {
                 case 1 -> FibonacciRowClass.calculateFibonacci();
                 case 2 -> LuckyNumbersClass.showLuckyShips();
                 case 3 -> GuessingNumberClass.guessNumber();
+                case 4 -> System.out.println("Bye");
             }
         } while (option != 4);
     }
